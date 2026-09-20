@@ -15,9 +15,9 @@ public class Test
 		{
 			c = new Circle();  
 
-			// r = new Rectangle(7,5, new Color(120,170,150));   
-			// printAreaAndCircumference(r);  
-			// printColor(r);
+			r = new Rectangle(7,5, new Color(120,170,150));   
+			printAreaAndCircumference(r);  
+			printColor(r);
 
 			// t = new Triangle(17,7,60);  
 			// printAreaAndCircumference(t);
