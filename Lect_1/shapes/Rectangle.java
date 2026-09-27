@@ -27,7 +27,7 @@ public class Rectangle extends Shape
 
    public void setWidth(int width) throws IllegalArgumentException
    {
-      if (width >= 0)
+      if (width > 0)
       {
          a_width = width; 
       }
@@ -44,7 +44,7 @@ public class Rectangle extends Shape
 
    public void setHeight(int height) throws IllegalArgumentException
    {
-      if (height >= 0)
+      if (height > 0)
       {
          a_height = height; 
       }

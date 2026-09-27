@@ -23,6 +23,6 @@ public class recursionEx2 {
 
     // MAIN
     public static void main(String[] args) {
-        System.out.println(factorial(0));
+        System.out.println(factorial(4));
     }
 }

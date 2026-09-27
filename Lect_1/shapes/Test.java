@@ -13,19 +13,11 @@ public class Test
 	
 		try
 		{
-			c = new Circle();  
+			c = new Circle(radius, new Color(10,50,220));  
+			c.setRadius(7);
+			printAreaAndCircumference(c);
+			printColor(c);
 
-			r = new Rectangle(7,5, new Color(120,170,150));   
-			printAreaAndCircumference(r);  
-			printColor(r);
-
-			// t = new Triangle(17,7,60);  
-			// printAreaAndCircumference(t);
-			// printColor(t);
-
-			// p = new Parallelogram (20, 50, 20);  
-			// printAreaAndCircumference(p);
-			// printColor(p);
 		}
 		catch (IllegalArgumentException e)
 		{

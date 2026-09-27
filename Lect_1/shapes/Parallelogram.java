@@ -4,7 +4,7 @@ public class Parallelogram extends Shape
 {
 	private int a_side1;                        
 	private int a_side2;
-	private double a_angle; // Sivujen välinen kulma asteina
+	private double a_angle; 
 
 	public Parallelogram(int s1, int s2, double angle) throws IllegalArgumentException               
 	{

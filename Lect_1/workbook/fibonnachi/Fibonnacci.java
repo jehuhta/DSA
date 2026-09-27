@@ -1,12 +1,9 @@
 
 // class
 public class Fibonnacci {
-
     // constructor
     public Fibonnacci() {
-
     }
-
     // method
     public int fibonnacci(int n) 
     {
@@ -25,5 +22,4 @@ public class Fibonnacci {
         Fibonnacci fibonnacci = new Fibonnacci();
         System.out.println(fibonnacci.fibonnacci(3));
     }
-
 }
